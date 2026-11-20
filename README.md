@@ -64,8 +64,8 @@ Follow the steps below to run the project on your local machine:
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/halukcansarioz/coklu-nesne-takibi.git
-cd coklu-nesne-takibi
+git clone https://github.com/halukcansarioz/Multiple-Object-Tracking.git
+cd Multiple-Object-Tracking
 ```
 
 ### 2. Install the required libraries:
