@@ -35,6 +35,18 @@ This project can serve as a foundation particularly in areas such as security sy
 
 ---
 
+## Pipeline Architecture
+
+```mermaid
+flowchart LR
+    A[Video Input] --> B[YOLOv8 Object Detection]
+    B --> C[ByteTrack Multi-Object Tracking]
+    C --> D[OpenCV Visualization]
+```
+
+---
+
+
 ## Features
 - **Multi-Object Tracking:** Simultaneously track multiple objects in a video stream.
 - **Unique ID Assignment:** Assign a persistent identity to each object for consistency across frames.
