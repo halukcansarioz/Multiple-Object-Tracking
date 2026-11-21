@@ -65,7 +65,7 @@ The following libraries and algorithms are used in the project:
 | **Image Processing** | OpenCV |
 | **Deep Learning** | PyTorch, TorchVision |
 | **Detection Algorithm** | YOLO (You Only Look Once) |
-| **Tracking Algorithm** | SORT / DeepSORT |
+| **Tracking Algorithm** | YOLOv8 + ByteTrack |
 | **Helper Libraries** | NumPy, Matplotlib, FilterPy, Scikit-learn |
 | **Environment** | Jupyter Notebook / Google Colab |
 
