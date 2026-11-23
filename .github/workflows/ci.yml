@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Verify requirements.txt and validate notebooks
+        run: |
+          python -c "import glob, json, os; assert os.path.isfile('requirements.txt'), 'requirements.txt missing'; nbs = glob.glob('**/*.ipynb', recursive=True); assert nbs, 'No .ipynb found'; [json.load(open(f, encoding='utf-8')) for f in nbs]; print('Validated:', nbs)"
