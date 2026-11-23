@@ -5,6 +5,7 @@
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)](#)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)](#)
+[![CI](https://github.com/halukcansarioz/Multiple-Object-Tracking/actions/workflows/ci.yml/badge.svg)](https://github.com/halukcansarioz/Multiple-Object-Tracking/actions/workflows/ci.yml)
 
 This project is a Computer Vision application developed to detect, assign identities to, and track multiple objects in video streams in real time.
 
